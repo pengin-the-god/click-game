@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>クリックゲーム</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-logo">クリックゲーム</h1>
+    </header>
+
+    <main>
+        <div class="white">
+        <div class="pop">
+            <h2 class="pop-text">クリック回数を増やしますか？<br>(10pt消費)</h2>
+            <h3 class="pop-btn">はい</h3><h3 class="pop-btn">いいえ</h3>
+        </div>
+        </div>
+        <div class="point">
+            <h2 class="point-text">ポイントメニュー</h2>
+            <h2 class="point-menu" id="point-1">10ptを消費</h2>
+            <h2 class="point-menu" id="point-2">100ptを消費</h2>
+            <h2 class="point-menu" id="point-3">AAAAA</h2>
+            <h2 class="point-menu" id="point-4">BBBBB</h2>
+            <h2 class="point-menu" id="point-5">CCCCC</h2>
+        </div>
+        <div class="idol">
+            <img class="idol-img" src="idol-1.png">
+            <h3 class="idol-text">現在のポイント:【<span class="idol-text-num"></span>pt】</h3>
+        </div>
+    </main>
+
+    <footer>
+        <div class="time-text"></div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
