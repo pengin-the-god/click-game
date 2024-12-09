@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 48px;
+    background: red;
+}
+
+.header-logo {
+    text-align: center;
+    color: white;
+}
+
+main {
+    height: 512px;
+    background: lightblue;
+    position: relative;
+    background-image: url("idol-2.png");
+    background-size: cover;
+    background-color: rgba(112, 182, 212, 0.521);
+    background-blend-mode: lighten;
+}
+
+.pop{
+    background:white;
+    width:500px;
+    height:400px;
+    position:fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    text-align:center;
+    z-index:10;
+    border:5px solid black;
+    border-radius:50px;
+
+    display:none
+
+}
+
+.pop-text{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+}
+
+.pop-btn{
+    display:inline-block;
+    color:white;
+    background:green;
+    width:200px;
+    height:40px;
+    text-align:center;
+    border:2px solid black;
+    margin-top:250px;
+}
+
+.point {
+    z-index: 10;
+}
+
+
+.point-text {
+    background: pink;
+    width: 200px;
+    border: 4px solid black;
+}
+
+.point-text:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.point-menu {
+    background: white;
+    width: 200px;
+    border-bottom: 4px solid lightgray;
+    border-right: 4px solid lightgray;
+    border-left: 4px solid lightgray;
+    display: none;
+}
+
+.point-menu:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.idol-img {
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.idol-img:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.idol-imag:active {
+    position: relative;
+}
+
+.idol-text {
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.time-text {
+    height: 40px;
+    background: blue;
+    color: white;
+    text-align: right;
+    font-size: 24px;
+    padding-right: 10px;
+}
